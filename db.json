@@ -1,20 +1,36 @@
 {
-  "services": [
-    
-  ],
-  "invoices": [
-  
-  ],
-  "withdrawals": [
-    
-  ],
-  "materialSales": [
-   
-  ],
-  "shopExpenses": [
-   
-  ],
+  "services": [],
+  "invoices": [],
+  "withdrawals": [],
+  "materials": [],
+  "materialPurchases": [],
+  "materialSales": [],
+  "shopExpenses": [],
   "settings": [
-    
+    {
+      "key": "partnerPercentage",
+      "value": 30,
+      "id": "1"
+    },
+    {
+      "key": "essentialExpenses",
+      "value": {
+        "rent": 8000,
+        "electricity": 300,
+        "water": 500
+      },
+      "id": "2"
+    },
+    {
+      "key": "barberSettings",
+      "value": {
+        "nasserPercentage": 50,
+        "sanayiPercentage": 50,
+        "sanayiPaymentType": "percentage",
+        "sanayiFixedSalary": "",
+        "assistantSalary": 2000
+      },
+      "id": "3"
+    }
   ]
 }
