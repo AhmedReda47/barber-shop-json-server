@@ -1,0 +1,15 @@
+# Render.com Configuration File
+# This file can be used to define services declaratively
+
+services:
+  - type: web
+    name: barber-shop-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    # Health check endpoint (optional)
+    # healthCheckPath: /services
+

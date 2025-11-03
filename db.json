@@ -1,0 +1,294 @@
+{
+  "services": [
+    {
+      "name": "قص",
+      "price": 80,
+      "id": "ec88"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "4c5a",
+      "date": "2025-11-03T00:00:00.000Z",
+      "customerName": "محسن",
+      "services": [
+        {
+          "name": "شامبو (1 قطعة)",
+          "price": 100
+        }
+      ],
+      "total": 100
+    },
+    {
+      "id": "a23e",
+      "date": "2025-11-03T00:00:00.000Z",
+      "customerName": "محسن",
+      "services": [
+        {
+          "name": "جل (1 قطعة)",
+          "price": 100
+        }
+      ],
+      "total": 100
+    },
+    {
+      "id": "c9c3",
+      "date": "2025-11-03T15:19:07.483Z",
+      "customerName": "ابو رضا",
+      "barber": "ناصر",
+      "paymentMethod": "انستاباي",
+      "services": [
+        {
+          "name": "قص",
+          "price": 80
+        }
+      ],
+      "total": 80
+    },
+    {
+      "id": "e71e",
+      "date": "2025-11-03T00:00:00.000Z",
+      "customerName": "محسن",
+      "services": [
+        {
+          "name": "جل (1 قطعة)",
+          "price": 100
+        }
+      ],
+      "total": 100
+    },
+    {
+      "id": "aa06",
+      "date": "2025-11-03T00:00:00.000Z",
+      "customerName": "سمير",
+      "paymentMethod": "انستاباي",
+      "services": [
+        {
+          "name": "شامبو (1 قطعة)",
+          "price": 100
+        }
+      ],
+      "total": 100
+    },
+    {
+      "id": "22fa",
+      "date": "2025-11-01T00:00:00.000Z",
+      "customerName": "احمد",
+      "paymentMethod": "نقدي",
+      "services": [
+        {
+          "name": "شامبو (1 قطعة)",
+          "price": 100
+        }
+      ],
+      "total": 100
+    },
+    {
+      "id": "ab5e",
+      "date": "2025-11-06T22:00:00.000Z",
+      "customerName": "عمر",
+      "barber": "الصنايعي",
+      "paymentMethod": "نقدي",
+      "services": [
+        {
+          "name": "قص",
+          "price": 80
+        }
+      ],
+      "total": 80
+    },
+    {
+      "id": "c10f",
+      "date": "2025-11-06T18:17:33.328Z",
+      "customerName": "تست",
+      "barber": "ناصر",
+      "paymentMethod": "نقدي",
+      "services": [
+        {
+          "name": "قص",
+          "price": 80
+        }
+      ],
+      "total": 80
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "8915",
+      "person": "المساعد",
+      "amount": 200,
+      "date": "2025-11-03"
+    },
+    {
+      "id": "f5b6",
+      "person": "الصنايعي",
+      "amount": 500,
+      "date": "2025-11-03"
+    },
+    {
+      "id": "527b",
+      "person": "ناصر",
+      "amount": 300,
+      "date": "2025-11-03"
+    },
+    {
+      "id": "9ba7",
+      "person": "سمير",
+      "amount": 700,
+      "date": "2025-11-03"
+    },
+    {
+      "id": "64db",
+      "person": "الصنايعي",
+      "amount": 150,
+      "date": "2025-11-03"
+    }
+  ],
+  "materials": [
+    {
+      "id": "3d28",
+      "name": "شامبو",
+      "wholesalePrice": 80,
+      "retailPrice": 100
+    },
+    {
+      "id": "5984",
+      "name": "جل",
+      "wholesalePrice": 50,
+      "retailPrice": 100
+    },
+    {
+      "id": "618c",
+      "name": "ماسك",
+      "wholesalePrice": 50,
+      "retailPrice": 100
+    },
+    {
+      "id": "5234",
+      "name": "شامبو",
+      "wholesalePrice": 20,
+      "retailPrice": 50
+    }
+  ],
+  "materialPurchases": [
+    {
+      "id": "3c4f",
+      "materialId": "3d28",
+      "materialName": "شامبو",
+      "quantity": 4,
+      "unitPrice": 80,
+      "totalCost": 320,
+      "date": "2025-11-03",
+      "notes": ""
+    },
+    {
+      "id": "3b28",
+      "materialId": "5984",
+      "materialName": "جل",
+      "quantity": 2,
+      "unitPrice": 50,
+      "totalCost": 100,
+      "date": "2025-11-03",
+      "notes": ""
+    },
+    {
+      "id": "473f",
+      "materialId": "618c",
+      "materialName": "ماسك",
+      "quantity": 3,
+      "unitPrice": 50,
+      "totalCost": 150,
+      "date": "2025-11-03",
+      "notes": ""
+    }
+  ],
+  "materialSales": [
+    {
+      "id": "8f61",
+      "materialId": "3d28",
+      "materialName": "شامبو",
+      "quantity": 1,
+      "unitPrice": 100,
+      "totalPrice": 100,
+      "customerName": "محسن",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "97e6",
+      "materialId": "5984",
+      "materialName": "جل",
+      "quantity": 1,
+      "unitPrice": 100,
+      "totalPrice": 100,
+      "customerName": "محسن",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "21c6",
+      "materialId": "5984",
+      "materialName": "جل",
+      "quantity": 1,
+      "unitPrice": 100,
+      "totalPrice": 100,
+      "customerName": "محسن",
+      "date": "2025-11-03"
+    },
+    {
+      "id": "6542",
+      "materialId": "3d28",
+      "materialName": "شامبو",
+      "quantity": 1,
+      "unitPrice": 100,
+      "totalPrice": 100,
+      "customerName": "سمير",
+      "date": "2025-11-03",
+      "paymentMethod": "انستاباي"
+    },
+    {
+      "id": "239f",
+      "materialId": "3d28",
+      "materialName": "شامبو",
+      "quantity": 1,
+      "unitPrice": 100,
+      "totalPrice": 100,
+      "customerName": "احمد",
+      "date": "2025-11-01",
+      "paymentMethod": "نقدي"
+    }
+  ],
+  "shopExpenses": [
+    {
+      "id": "dc71",
+      "amount": 15000,
+      "type": "ديون محل",
+      "date": "2025-11-03"
+    }
+  ],
+  "settings": [
+    {
+      "key": "partnerPercentage",
+      "value": 30,
+      "id": "1"
+    },
+    {
+      "key": "essentialExpenses",
+      "value": {
+        "rent": 8000,
+        "electricity": 300,
+        "water": 500
+      },
+      "id": "2"
+    },
+    {
+      "key": "barberSettings",
+      "value": {
+        "nasserPercentage": 50,
+        "sanayiPercentage": 50,
+        "sanayiPaymentType": "percentage",
+        "sanayiFixedSalary": "",
+        "assistantSalary": 2000
+      },
+      "id": "3"
+    }
+  ]
+}

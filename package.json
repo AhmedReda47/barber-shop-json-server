@@ -1,0 +1,19 @@
+{
+  "name": "barber-shop-json-server",
+  "version": "1.0.0",
+  "description": "JSON Server for Barber Shop API",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
+
